@@ -1,0 +1,24 @@
+svg{
+  background-color:yellow;
+}
+
+circle{
+  fill:blue;
+  stroke:red;
+  stroke-width:5px;
+}
+body{
+  background: goldenrod url("https://bit.ly/3h2VSOf") 50% 50% no-repeat;
+  height: 100vh;  /* viewport height*/
+}
+
+@media only screen and (max-width: 600px) {
+  body{
+    background-color: violet;
+    color:aquamarine;
+  }
+
+  h1{
+    border:solid yellowgreen 5px;
+  }
+}
